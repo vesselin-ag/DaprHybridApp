@@ -1,0 +1,6 @@
+@DaprHybridApp.ConfluentProducer_HostAddress = http://localhost:5230
+
+GET {{DaprHybridApp.ConfluentProducer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
